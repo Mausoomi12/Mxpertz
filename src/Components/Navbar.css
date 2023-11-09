@@ -1,0 +1,125 @@
+/* Navbar container */
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 0px;
+}
+
+/* Navigation list */
+ul {
+  list-style: none;
+  display: flex;
+  margin-left:60%;
+  padding: 0;
+  text-align: right; /* Move the entire list to the right */
+}
+
+/* List items (optional styles) */
+li {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px; /* Add spacing between list items */
+}
+
+/* Cart icon (optional styles) */
+
+/* Style for links (if needed) */
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ffd700; /* Change color on hover */
+}
+.rest{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Content section */
+.content {
+  text-align: center; /* Center the content horizontally */
+ /* Add spacing from the navbar */
+}
+
+/* Image styles */
+.content img {
+  max-width: 100%; 
+  height:500px;/* Ensure the image doesn't exceed its container */
+  width: 100%;
+}
+
+/* Button container */
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Button styles */
+.view-menu-button{
+  background-color: rgba(0, 123, 255, 0);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 16px;
+  padding: 10px; /* Set padding inside the text box */
+  border: 2px solid #323030; /* Set the border color and width */
+  box-sizing: border-box;
+  text-align: center;
+  width: 150px;
+  box-shadow: #5b5959;
+}
+.reservation-button {
+  background-color: #e1ad01;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 16px;
+  margin-top: 10%;
+  text-align: center;
+  width: 150px;
+  padding: 10px; /* Set padding inside the text box */
+  border: 2px solid rgb(156, 156, 8); /* Set the border color and width */
+  box-sizing: border-box;
+}
+
+.centered-text {
+  color: white;
+}
+.home-text {
+  color: white;
+}
+
+p {
+  color: azure;
+}
+
+/* Hover effect */
+.view-menu-button:hover,
+.reservation-button:hover {
+  background-color: #0056b3;
+}
+.textbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Set the height of the container (adjust as needed) */
+}
+
+.centered-text {
+  font-size: 24px; /* Set the font size */
+  text-align: center; /* Center the text horizontally */
+}
+

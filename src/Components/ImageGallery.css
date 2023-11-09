@@ -1,0 +1,54 @@
+/* Image Gallery container */
+.image-gallery {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 0px;
+  margin-right: 40px;
+  margin-left: 100px;
+  
+}
+
+.image-gallery p {
+  color: black;
+}
+
+/* Image rows */
+.image-row {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  margin: -10px; /* Negative margin to counteract item padding */
+}
+
+/* Individual image container */
+.image {
+  width: calc(33.333% - 20px); /* Adjust as needed for layout with margin */
+  text-align: center;
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  }
+
+/* Image styles */
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Image info styles */
+.image-info {
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  opacity: 0.8;
+  text-align: center;
+}
+.reserve-align1 {
+  color: black;
+  text-align: center;
+}
+
+/* Text styles */
+.image-info p {
+  margin: 5px;
+}

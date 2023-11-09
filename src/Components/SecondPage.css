@@ -1,0 +1,63 @@
+/* Second Page container */
+.second-page {
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Text container */
+  .text-container {
+    width: 50%; /* Adjust as needed */
+    padding: 40px;
+    margin-bottom: 30%;
+  }
+  
+  /* Image container */
+  .image-container {
+    width: 50%; /* Adjust as needed */
+  }
+  
+  /* Image styles */
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Text styles */
+  .text-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    color: gray;
+    
+  }
+  .our {
+    border-bottom: 3px solid #e1ad01;
+    width: 100px;
+    
+  }
+  
+  .text-container p {
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+  }
+  .text-container h1 {
+    font-size: 49px;
+    color: #000;
+    text-align: left;
+  }
+  /* Black div styles */
+.black-div {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 150px; /* Adjust as needed */
+    text-align: center;
+    margin-top: 20px; /* Add spacing from the text and image */
+  }
+ 
+  

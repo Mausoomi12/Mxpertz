@@ -1,0 +1,115 @@
+/* News and Events container */
+.news-events-container {
+    text-align: center;
+    background-color: rgb(241, 245, 248);
+    margin-bottom: 0px;
+  }
+  
+  /* News and Events heading */
+  .news-events-heading {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 49px;
+  }
+  .news-events-heading1 {
+   
+    margin-top: 5%;  font-size: 20px;
+
+  
+    color: rgb(129, 129, 37);
+  }
+
+  .news {
+    color: black;
+  }
+  
+  /* News and Events row */
+  .news-events-row {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+  
+  /* Individual news event container */
+  .news-event {
+    width: 30%;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start; /* Align children (paragraphs) vertically at the center */
+    align-items:start; /* Align children (paragraphs) horizontally at the center */
+  }
+  
+  /* Description styles */
+  .news-event p {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify; /* Add text justification */
+  }
+
+  .we{
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+    padding: 20px;
+
+  }
+  .but {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; /* Adjust as needed for spacing */
+    margin-bottom: 90px;
+    padding: 40px;
+   
+  }
+  .align {
+    text-align: center;
+  }
+  
+  .but button {
+    background-color: #e1ad01;
+    font-size: 13px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    color: white;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .but button:hover {
+    background-color: #e1ad01; /* Adjust the hover color as needed */
+  }
+
+  h3 {
+    text-align: left;
+  }
+
+  .category {
+    color: #e1ad01
+  }
+  
+  .news-event h4{
+    text-align: start;
+
+  }
+  
+  /* Image styles */
+  .news-event img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Description styles */
+  .news-event p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .miss {
+    border-bottom: 3px solid #e1ad01;
+    width: 100px;
+  }
