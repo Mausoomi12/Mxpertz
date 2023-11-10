@@ -4,8 +4,8 @@ import './SecondPage.css';
 const SecondPage = () => {
   return (
     <div className="second-page">
-      <div className="text-container">
-        <h2><span className='our'>OUR ST</span>ORY</h2>
+      <div className="text-container" style={{ marginTop: '250px' }}>
+        <h2 className='font'><span className='our'>OUR ST</span>ORY</h2>
         <h1>Welcome to Royal</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non

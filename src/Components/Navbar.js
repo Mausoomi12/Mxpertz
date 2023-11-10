@@ -5,6 +5,9 @@ const Navbar = () => {
   return (
     <div>
       <nav>
+          <h3 className="header-text">Restaurant</h3>
+          <h3 className="header-text1">Landing</h3>
+          <h3 className="header-text2">Page</h3>
         <ul>
           <li>Landing</li>
           <li>Home</li>

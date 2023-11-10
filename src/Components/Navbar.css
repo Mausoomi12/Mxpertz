@@ -1,4 +1,16 @@
 /* Navbar container */
+.header-text {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.header-text1 {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.header-text2 {
+  margin-right: 50px;
+  font-family: 'Comfortaa', sans-serif;
+}
 nav {
   background-color: #333;
   color: #fff;
@@ -13,7 +25,7 @@ nav {
 ul {
   list-style: none;
   display: flex;
-  margin-left:60%;
+  margin-left:40%;
   padding: 0;
   text-align: right; /* Move the entire list to the right */
 }

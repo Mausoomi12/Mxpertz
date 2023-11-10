@@ -6,6 +6,11 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  .font {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
+  }
   
   /* Text container */
   .text-container {
@@ -16,13 +21,13 @@
   
   /* Image container */
   .image-container {
-    width: 50%; /* Adjust as needed */
+    width: 50%;
   }
   
   /* Image styles */
   .image-container img {
     max-width: 100%;
-    height: auto;
+    
   }
   
   /* Text styles */
